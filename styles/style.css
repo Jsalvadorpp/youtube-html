@@ -1,0 +1,36 @@
+/** Global elements */
+body{
+    background-color: #181818;
+    font-family: Roboto, Arial, sans-serif;
+    color:white;
+}
+.container{
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+
+/** Navigation bar */
+#navbar{
+    background-color: #202020;
+}
+
+/** Video Content */
+#video_content{
+    width: 65%;
+    float: left;
+}
+/** Video Player */
+
+/** Video Comments */
+
+/** Videos Playlist */
+#videos_playlist{
+    width: 35%;
+    float: right;
+}
+
+
+
+
