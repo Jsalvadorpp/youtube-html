@@ -6,7 +6,6 @@ body{
 }
 .container{
     padding: 10px 10px;
-    border-radius: 10px;
     box-sizing: border-box;
 }
 
@@ -14,6 +13,62 @@ body{
 /** Navigation bar */
 #navbar{
     background-color: #202020;
+}
+#navbar ul{
+    display: inline-block;
+    width: 100%;
+}
+#navbar ul li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+#navbar i{
+    height: 18px;
+    color: white;
+}
+#navbar form{
+    display: block;
+    float: right;
+    margin-top: 5px;
+}
+#navbar  input[type='text']{
+    font-size: 15px;
+    padding: 4px 10px;
+    border: 1px solid #323232;
+    background-color: #121212;
+    color: white;
+    float: left;
+    width: 500px;
+   
+}
+#navbar form button{
+    padding: 6px 20px;
+    border: 1px solid #323232;
+    border-radius: 0;
+    background-color: #323232;
+    float: left;
+}
+#navbar form button i{
+    color: #6f6f6f ; 
+}
+#navbar input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #797979;  
+}
+#account_avatar{
+    border-radius: 50%
+}
+#left_navbar{
+    float: left;
+    width: 70%;
+}
+#left_navbar li{
+    margin-top: 8px !important;
+}
+#left_navbar img{
+   padding-bottom: 2px !important;
+}
+#right_navbar{
+    float: right
 }
 
 /** Video Content */

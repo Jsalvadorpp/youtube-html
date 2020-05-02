@@ -6,13 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
 
     <!--$ Navigation bar -->
-    <div class='container' id='navbar'>
-        <h2>Navigation bar</h2>
+    <div class='container' id='navbar' >
+
+        <ul>
+            <div id='left_navbar'>
+
+                <li><a href='#'><i class="material-icons">menu</i></a></li>
+
+                <li><a href='#'><img src='images/yt_logo_rgb_dark.png' alt='Youtube' width="75px" height="20px"></a></li>
+
+                <form>
+                    <input type='text' placeholder="Search">
+                    <button type="submit"><i class="material-icons">search</i></button>
+                </form>
+            </div>
+            
+            <div id='right_navbar'>
+                <li><a href='#'><i class="material-icons">video_call</i></a></li>
+
+                <li><a href='#'><i class="material-icons">apps</i></a></li>
+    
+                <li><a href='#'><i class="material-icons">notifications</i></a></li>
+    
+                <li><a href='#'><img src='images/avatar.jpg' alt='Avatar' width="32px" height="32px" id='account_avatar'></a></li>
+            </div>
+
+        </ul>
+ 
     </div>
     <!--$ -------------- -->
 
