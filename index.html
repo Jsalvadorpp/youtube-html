@@ -34,7 +34,7 @@
     
                 <li><a href='#'><i class="material-icons">notifications</i></a></li>
     
-                <li><a href='#'><img src='images/avatar.jpg' alt='Avatar' width="32px" height="32px" id='account_avatar'></a></li>
+                <li><a href='#'><img src='images/avatar.jpg' alt='Avatar' width="32px" height="32px" class='account_avatar'></a></li>
             </div>
 
         </ul>
@@ -46,12 +46,65 @@
     <div class='container' id='video_content'>
 
         <!--% Video player-->
-        <div class='container'>
-            <h2>Video Player</h2>
+        <div id='video_player'>
+            
+            <iframe width="834" height="480" src="https://www.youtube.com/embed/3cqV5BKJHyk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            <div class='video_information'>
+                <p class='video_title'>comet / 星街すいせい</p>
+
+                <div class='video_options'>
+                    <p class='video_info_text'>608,843 views • Nov 22, 2018</p>
+                    
+                    <div id='options_right'>
+                        <ul>
+                            <div id='likes_ration'>
+                                <li class='liked'><i class="material-icons">thumb_up</i><span>19K</span></li>
+                                <li><i class="material-icons">thumb_down</i><span>31</span></li>
+
+                                <div id='likes_meter'><span style="width: 97%;"></span></div>
+                            </div>
+                                
+                            <li><i class="material-icons rotate_icon">reply</i><span>SHARE</span></li>
+                            <li><i class="material-icons">playlist_add</i><span>SAVE</span></li>
+                            <li><i class="material-icons">more_horiz</i></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div id='video_description'>
+
+                    <div id='channel_info'>
+                        <img src='https://yt3.ggpht.com/a/AATXAJwKuNhye0SEMSrtM5HUe5aVtKyxAvmdDlSpWw=s48-c-k-c0xffffffff-no-rj-mo' alt='Avatar' width="48px" height="48px" class='account_avatar'>
+
+                        <div id='name_and_subs'>
+                            <p>Suisei Channel</p><br>
+                            <p>245K subscribers</p>
+                        </div>
+
+                        <div class='right' id='channel-right'>
+                            <button class='subscribe'>SUBSCRIBE</button>
+                            <!-- <i class="material-icons">notifications_none</i> -->
+                        </div>
+
+                    </div>
+
+                    <div id='channel_description'>
+                        <p>「comet」</p><br>
+                        <br>
+                        <p>作詞作編曲：*Luna</p><br>
+
+                        <p class='show_more'>SHOW MORE</p><br>
+                    </div>
+                    
+                </div>
+            </div>
+
         </div>
 
         <!--% Video comments -->
-        <div class='container'>
+        <div id='video_comments'>
             <h2>Video comments</h2>
 
         </div>
