@@ -197,6 +197,42 @@ body{
 
 
 /** Video Comments */
+#total_comments{
+    display: inline;
+}
+#sort_by i{
+    color: #909090;
+    margin-left: 25px;
+    margin-right: 12px;
+    vertical-align: -5px;
+}
+#sort_by span{
+    color: #909090 ;
+    vertical-align: 0;
+    font-weight: 600;
+    font-size: 15px;
+}
+#comment_form{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#comment_form .account_avatar{
+    float: left;
+}
+#comment_form input[type='text']{
+    width: 94%;
+    float: right;
+    background: none;
+    border: 0;
+    padding: 2px 0;
+    color: white;
+    border-bottom: 1px solid #909090;
+    font-size: 14px;
+}
+#comment_form input::placeholder{
+    color: #909090;
+}
+
 
 /** Videos Playlist */
 #videos_playlist{
