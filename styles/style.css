@@ -293,9 +293,46 @@ body{
 
 /** Videos Playlist */
 #videos_playlist{
+    margin-top: 15px;
     width: 35%;
     float: right;
 }
+.inline{
+    display: inline;
+}
+#videos_playlist .up_next{
+    font-size: 16px;
+}
+
+#videos_playlist .right p{
+    color: #909090;
+    font-weight: 600;
+}
+.up_next{
+    font-size: 16px;
+}
+#playlist_toggle{
+    display: inline-block;
+    width: 32px;
+    height: 14px;
+    border-radius: 10px;
+    background-color: #323232;
+    position: relative;
+}
+#playlist_toggle i{
+    font-size: 22px;
+    position: absolute;
+    top: -4px;
+    left: -1px;
+    color: #909090;
+}
+#videos_playlist hr{
+    height: 1px;
+    border: none;
+    background-color: #303030;
+    margin: 15px 0;
+}
+
 
 
 
