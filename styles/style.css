@@ -21,6 +21,11 @@ body{
 /** Navigation bar */
 #navbar{
     background-color: #202020;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 #navbar ul{
     display: inline-block;
@@ -85,6 +90,7 @@ body{
     padding-left: 30px;
     width: 65%;
     float: left;
+    margin-top: 44.5px;
 }
 .video_information{
     margin: 12px 0;
@@ -293,7 +299,7 @@ body{
 
 /** Videos Playlist */
 #videos_playlist{
-    margin-top: 15px;
+    margin-top: 59.5px;
     width: 35%;
     float: right;
 }
@@ -318,6 +324,7 @@ body{
     border-radius: 10px;
     background-color: #323232;
     position: relative;
+    z-index: -1;
 }
 #playlist_toggle i{
     font-size: 22px;
@@ -331,6 +338,29 @@ body{
     border: none;
     background-color: #303030;
     margin: 15px 0;
+}
+.recommend_video{
+    display: block;
+    margin: 12px 0;
+    height: 94px;
+    color: #aaaaaa;
+    outline : none;
+    font-size: 14px;
+}
+.recommend_video p{
+    margin-bottom: 6px;
+}
+.video_tumbnail{
+    float: left;
+}
+.recv_info{
+    float: left;
+    margin-left: 8px;
+    width: calc(60% - 3vw);
+}
+.recv_info p:first-child{
+    color: white;
+    font-size: 16px;
 }
 
 
