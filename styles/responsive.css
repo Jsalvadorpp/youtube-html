@@ -1,0 +1,139 @@
+@media only screen and (max-width: 1100px){
+
+    /** Navigation bar */
+    #navbar  input[type='text']{
+       width: 350px;
+    }
+    #left_navbar{
+        width: 75%;
+    }
+
+    /** Video Content */
+    #video_content{
+        float: left;
+        width: 100%;
+        padding-left: 10px;
+    }
+
+    /** Videos Playlist */
+    #videos_playlist{
+        float: left;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .recv_info{
+        width: calc(75% - 5vw);
+    }
+
+}
+@media only screen and (max-width: 830px){
+
+    /** Navigation bar */
+    #navbar  input[type='text']{
+       width: 280px;
+    }
+    #left_navbar{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 760px){
+
+    /** Navigation bar */
+    #navbar  form{
+       display: none;
+    }
+    #left_navbar{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 660px){
+
+    /** Video Content */
+    #video_player iframe{
+        height: 400px;
+    }
+    #options_right ul li{
+        margin: 0 4px;
+    }
+    #options_right {
+        padding-top: 3px;
+    }
+    #options_right ul li span{
+        margin-left: 3px;
+        font-size: 12px;
+        vertical-align: 2px;
+    }
+    #options_right i{
+        font-size: 16px;
+    }
+    .video_info_text{
+        font-size: 14px;
+    }
+
+    /** Videos Playlist */
+    .recv_info{
+        width: calc(75% - 5vw)
+    }
+}
+@media only screen and (max-width: 600px){
+
+    /** Video Content */
+    #comment_form input[type="text"]{
+        float: left;
+        width: 85%;
+        margin-left: 5px;
+    }
+
+    /** Video Comments */
+    .comment_info{
+        float: left;
+        width: 85%;
+        margin-left: 5px;
+    }
+
+    /** Videos Playlist */
+    .recv_info{
+        width: calc(55% - 5vw)
+    }
+}
+@media only screen and (max-width: 600px){
+
+    /** Navbar */
+    #navbar ul li{
+        margin: 5px 2px;
+    }
+    #left_navbar{
+        padding-top: 4px;
+    }
+
+    /** Video Content */
+    #video_player iframe{
+        height: 260px;
+    }
+    #options_right{
+        float: none;
+        margin-top: 10px;
+    }
+    .video_options{
+        padding-bottom: 0;
+    }
+
+    /** Videos Playlist */
+    .recv_info p:first-child{
+        font-size: 14px;
+    }
+    .recommend_video{
+        font-size: 12px;
+        height: 85px;
+    }
+    .recommend_video p{
+        margin-bottom: 3px;
+    }
+    .recommend_video img{
+        width: 140px;
+        height: 85px;
+    }
+}
+
+
+
